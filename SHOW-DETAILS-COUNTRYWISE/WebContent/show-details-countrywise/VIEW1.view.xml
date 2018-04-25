@@ -1,0 +1,19 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="show-details-countrywise.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		<VBox>
+		<Text text="city"/><Input  id="idcity"/>
+		<Text text="state"/><Input id="idstate"/>
+		<Text text="Pincode"/><Input id="idzip" liveChange="onChange"/>
+			<ComboBox id="idCountry" change="onSelect">
+				<core:Item key="" text="US" />
+				<core:Item key="" text="india" />
+			</ComboBox>
+		
+		
+		
+	</VBox>
+		</content>
+	</Page>
+</core:View>
